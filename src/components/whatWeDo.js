@@ -1,11 +1,11 @@
 import React from "react";
 import "../style/whatWeDo.css";
-import { MdLeaderboard } from "react-icons/md";
-import { MdAccountBalanceWallet } from "react-icons/md";
+import { BiBarChart } from "react-icons/bi";
+import { BiWallet } from "react-icons/bi";
 import { MdAddchart } from "react-icons/md";
 import { FaListOl } from "react-icons/fa";
 import { AiOutlineFileSearch } from "react-icons/ai";
-import { AiOutlineMail } from "react-icons/ai";
+import { BiMessageDetail } from "react-icons/bi";
 const WhatWeDo = () => {
   return (
     <div className="whatWeDoContainer">
@@ -13,12 +13,12 @@ const WhatWeDo = () => {
       <h1>What We Do</h1>
       <div className="cardsContainer">
         <div>
-          <MdLeaderboard size={30} color="rgb(68, 68, 247)" />
+          <BiBarChart size={30} color="rgb(68, 68, 247)" />
           <h3>Market Analysis</h3>
           <p>We support your business with fact based market research</p>
         </div>
         <div>
-          <MdAccountBalanceWallet size={30} color="rgb(68, 68, 247)" />
+          <BiWallet size={30} color="rgb(68, 68, 247)" />
           <h3>Funds Management</h3>
           <p>Allowing you to successfully deal with your company's funds</p>
         </div>
@@ -40,7 +40,7 @@ const WhatWeDo = () => {
           <p>Deep and detailed investigation of your company's activities</p>
         </div>
         <div>
-          <AiOutlineMail size={30} color="rgb(68, 68, 247)" />
+          <BiMessageDetail size={30} color="rgb(68, 68, 247)" />
           <h3>Consulting</h3>
           <p>Focusing on our clients most critical issuesand oppurtunities</p>
         </div>
