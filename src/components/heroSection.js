@@ -10,10 +10,7 @@ const HeroSection = () => {
         <div className="heroText">
           <h1>Professional Business Modelling</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Crofts Accountants provides business modelling, planning, mahagement, and advisory services backed by years of experience in the industry. We offer pocket friendly services at the best quality.
           </p>
                   <div>
             <button>Read More</button>

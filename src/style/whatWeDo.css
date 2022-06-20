@@ -29,13 +29,14 @@
   background-color: white;
   height: 35vh;
   width: 80%;
-  box-shadow: 0px 0px 10px #eee;
+  box-shadow: 0px 0px 20px #eee;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .cardsContainer p {
