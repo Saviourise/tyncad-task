@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className="navContainer">
       <div className="logoContainer">
-        <img src={require("../assets/logo.png")} />
+        <img src={require("../assets/logo.png")} alt="logo" />
       </div>
       <div className="navbarContainer">
         <ul>
