@@ -1,0 +1,87 @@
+.navContainer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navContainer img {
+  width: 200px;
+  height: 60px;
+}
+
+.navContainer div:first-child {
+  flex: 20%;
+}
+
+.navContainer div:nth-child(2) {
+  flex: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navContainer ul {
+  display: flex;
+}
+
+.navContainer ul li {
+  margin: auto 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.navContainer ul li:first-child {
+  color: rgb(68, 68, 247);
+  font-weight: 500;
+}
+
+.navContainer button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navContainer button:hover {
+  background-color: rgb(68, 68, 247);
+  border-color: rgb(68, 68, 247);
+}
+
+@media screen and (max-width: 900px) {
+  .navContainer div:first-child {
+    flex: 10%;
+  }
+
+  .navContainer div:nth-child(2) {
+    flex: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .siginInNavContainer {
+    display: none;
+  }
+  .navContainer ul li:first-child {
+    margin-left: 0px;
+  }
+  .navContainer div:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navContainer ul li {
+    font-size: 12px;
+  }
+}

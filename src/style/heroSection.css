@@ -1,0 +1,78 @@
+.heroSectionContainer {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/picture1.jpg");
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.heroSectionBackdrop {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+  width: 100%;
+  height: 100vh;
+  padding: 20px 150px;
+  color: #fff;
+}
+
+.heroText {
+  height: 80vh;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.heroText h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.heroText p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.heroText button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.heroText button:nth-child(2) {
+  background: rgb(68, 68, 247);
+  border-color: rgb(68, 68, 247);
+  margin-left: 20px;
+}
+
+.heroText button:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 800px) {
+  .heroSectionBackdrop {
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heroSectionBackdrop {
+    padding: 20px;
+  }
+  .heroText {
+    width: 300px;
+  }
+  .heroText h1 {
+    font-size: 32px;
+  }
+  .heroText p {
+    font-size: 12px;
+  }
+}
